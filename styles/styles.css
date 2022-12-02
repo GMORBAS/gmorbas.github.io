@@ -1,0 +1,116 @@
+body {
+    background-image: url("https://images2.imgbox.com/a6/b9/n5j3bM7a_o.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://1.bp.blogspot.com/-ba7FcStFCQI/YHix4Q1Ax4I/AAAAAAAAhzo/sY2mVvhqu24R4V6x2tPrkGqhqW2SaQXAgCLcBGAsYHQ/s1600/Lower_Header-vNEW.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: auto;
+    height: 158px;
+    justify-content: right;
+}
+
+.pb {
+    width: 350px;
+    height: auto;
+    margin-top: 1%;
+}
+
+.nav {
+    background-color: rgb(39, 39, 39);
+    border: 2px rgb(80, 80, 80) solid;
+    border-style: ridge;
+    border-width: 5px;
+    align-self: center;
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    width: 90vw;
+}
+
+.linksnav {
+    cursor: pointer;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    text-decoration: none;
+    color: white;
+}
+
+a.linksnav:hover {color: rgb(255, 255, 0);}
+
+.indice {
+    background-image: url("https://2.bp.blogspot.com/-aeeFs7PPsHo/VQgZNSthokI/AAAAAAAAGfg/HODYMdg6CPA/s1600/title.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: left;
+    margin-top: -19px;
+    margin-left: 18vw;
+}
+
+.paginaPresente {
+    color: rgb(135, 138, 2);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.ubicacion {
+    color: white;
+}
+
+.contenidos {
+    margin: auto;
+    justify-content: center;
+}
+
+tr {
+    height: 150px;
+    width: 150px;
+}
+
+th {
+    color: rgb(109, 102, 92);
+    width: 25vw;
+    height: auto;
+    justify-content: center;
+}
+
+.textbox {
+    height: 40px;
+}
+
+.textlinks {
+    text-decoration: none;
+    color: rgb(109, 102, 92);
+}
+
+a.textlinks:hover {text-decoration: underline;}
+
+.prologo {
+    border-bottom: 1px solid rgb(65, 65, 65);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    overflow: hidden;
+    padding: 6px 0;
+    margin: auto;
+    width: 50vw;
+    height: 50px;
+    margin-top: -200px;
+    margin-bottom: 50px;
+}
